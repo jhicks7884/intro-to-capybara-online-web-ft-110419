@@ -4,7 +4,7 @@ class Application < Sinatra::Base
      erb :index
    end
 
-   GET '/' - Greeting Form
+   get '/' - greeting form
      welcomes the user
    end
 
